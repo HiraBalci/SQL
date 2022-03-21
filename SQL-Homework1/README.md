@@ -7,9 +7,3 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 * customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir?
 * film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
-# 1.Ödevin Cevapları
-* SELECT title,description FROM film ;--1. soru cevabı
-* SELECT length FROM film WHERE 60<length AND 75>length;--2.sorunun cevabı
-* SELECT rental_rate,replacement_cost FROM film WHERE rental_rate=0.99 AND replacement_cost=12.99 OR replacement_cost=28.99; --3.sorunun cevabı
-* SELECT first_name,last_name FROM customer  WHERE first_name='Mary'; --4.Sorunun cevabı: 'Smith'
-* SELECT length,rental_rate FROM film WHERE length<50 AND NOT (rental_rate=2.99 OR rental_rate=4.99);--5.sorunun cevabı
