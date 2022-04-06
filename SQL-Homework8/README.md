@@ -1,8 +1,6 @@
-# SQL-Ödevi-6
+# SQL-Ödevi-8
 
-Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
-
-* film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
-* film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
-* film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?
-* film tablosunda bulunan filmlerin uzunluğu 150 dakikadan büyük olanlarına ait kaç farklı replacement_cost değeri vardır?
+* test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+* Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+* Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+* Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
